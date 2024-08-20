@@ -1,13 +1,40 @@
-@import url("Header.css");
-@import url("Main.css");
+@import url("./font.css");
+
 .section {
   background-color: black;
+  margin-left: 50px;
 }
 header {
   background-color: black;
-  margin-left: 50px;
 }
 
 header img {
   height: 100px;
+}
+
+main {
+  background-color: black;
+  line-height: 1;
+}
+main .section {
+  padding-bottom: 36px;
+}
+.line {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  height: 120px;
+}
+.line img {
+  width: 220px;
+}
+h2 {
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }

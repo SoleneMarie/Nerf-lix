@@ -6,10 +6,13 @@ import data from "./assets/data.json";
 function App() {
   return (
     <>
-      <Title />
-      <AllSections data={data} />
+      <header>
+        <Title />
+      </header>
+      <main>
+        <AllSections data={data} />
+      </main>
     </>
   );
 }
-console.log(data);
 export default App;
