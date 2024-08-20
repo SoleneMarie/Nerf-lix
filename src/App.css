@@ -1,0 +1,13 @@
+@import url("Header.css");
+@import url("Main.css");
+.section {
+  background-color: black;
+}
+header {
+  background-color: black;
+  margin-left: 50px;
+}
+
+header img {
+  height: 100px;
+}
